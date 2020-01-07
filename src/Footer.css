@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+.footerList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerList li {
+  padding: 15px;
+}
+
+.link {
+  color: lightgrey;
+  font-size: 30px;
+}
+.link:hover {
+  color: #f0fc6a;
+}
+
+.copyright {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+

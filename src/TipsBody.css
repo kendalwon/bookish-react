@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+.articleList, .archiveList {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.articleItem {
+  width: 32%;
+  padding: 20px;
+}
+
+.articleTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  line-height: 1.25em;
+  letter-spacing: 0px;
+}
+
+.articleDate {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: lightgray;
+  padding-top: 10px;
+}
+
+.articleContent {
+  font-family: 'Noto Serif KR', 'Times New Roman', serif;
+  letter-spacing: 0px;
+  font-size: 16px;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+#couchImg {
+  width: 100%;
+  border: 2px solid gray;
+  padding: 5px;
+}
+
+.contentLink {
+  text-decoration: none;
+  color: #2347b2;
+}
+.contentLink:hover {
+  color: #2e60f3;
+}
+
+.archive {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.archiveHeading {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  color: lightgray;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.archiveItem {
+  font-family: 'Montserrat', sans-serif;
+  width: 20%;
+  padding: 10px;
+}
+
+.archiveLink {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+.archiveLink:hover {
+  color: #2347b2;
+}
+
+.archiveDate {
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  color: lightgray;
+}
+
+@media only screen and (max-width: 840px) {
+  .archiveLink {
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .articleTitle {
+      font-size: 20px;
+  }
+  .articleContent { 
+      font-size: 14px;
+  }
+  .archiveList {
+      display: block;
+  }
+  .archiveItem {
+      width: 100%;
+      text-align: center;
+  }
+  .archiveDate {
+      font-size: 10px;
+      letter-spacing: 1px;
+      padding-top: 0px;
+  }
+}

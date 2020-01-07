@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.emailSignup {
+  margin-top: 20px;
+  padding: 10px 0 30px 0;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-family:'Noto Serif KR', 'Times New Roman', Times, serif;
+}
+
+.emailIntro {
+  font-size: 28px;
+  letter-spacing: 6px;
+  padding: 10px;
+}
+
+.emailTagline {
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+.emailInput {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: #4CAF50;
+  font-family:'Noto Serif KR', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: gainsboro;
+  letter-spacing: 3px;
+}
+.emailInput::placeholder {
+  color: gainsboro;
+}
+.emailInput:focus {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: #4CAF50;
+}
+
+.emailSubmit {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+.intro {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 40px;
+  line-height: 1.5em;
+}
+
+.readsList {
+  width: 75%;
+  margin: auto;
+  border-bottom: 2px solid lightgray;
+}
+
+.readsCategory {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0 15px 0;
+  border-top: 2px solid lightgray;
+}
+
+.categoryHeading {
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 6px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+.categoryHeading:hover {
+  color: #2347b2;
+}
+
+.categoryLink {
+  text-decoration: none;
+}
+
+.categoryContent {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  line-height: 1.5em; 
+  color: black;
+}
+.categoryContent:hover {
+  color: #2347b2;
+}
+
+.ageImg {
+  width: 350px;
+  border: 1px solid lightgray;
+  margin: 10px 30px 10px 30px; 
+}
+
+
+@media only screen and (max-width: 860px) {
+  .readsList {
+      width: 80%;
+  }
+  .categoryHeading {
+      font-size: 24px;
+      letter-spacing: 4px;
+  }
+  .categoryContent {
+      font-size: 16px;
+      letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .readsList {
+      width: 90%;
+  }
+  .ageImg {
+      width: 300px;
+      border: 1px solid lightgray;
+      margin: 10px 30px 10px 30px; 
+  }
+  .categoryImg {
+      font-size: 20px;
+      letter-spacing: 3px;
+  }
+  .categoryContent {
+      font-size: 14px;
+      letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .ageImg {
+      width: 250px;
+      border: 1px solid lightgray;
+      margin: 5px 15px 5px 15px; 
+  }
+  .categoryHeading {
+      font-size: 18px;
+      letter-spacing: 2px;
+  }
+  .categoryContent {
+      font-size: 14px;
+      letter-spacing: 0px;
+  }
+}
+
