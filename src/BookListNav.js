@@ -1,7 +1,7 @@
 import React from 'react';
-import './BookLists.css';
+import './BookListNav.css';
 
-function BookLists() {
+function BookListNav() {
   return (
     <div className="bookLists">
       <h1 className="bookListTitle">Book Lists By Age</h1>
@@ -16,4 +16,4 @@ function BookLists() {
   );
 };
 
-export default BookLists;
+export default BookListNav;
