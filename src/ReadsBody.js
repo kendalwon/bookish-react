@@ -1,10 +1,10 @@
 import React from 'react';
 import './ReadsBody.css';
-import FoxImg from "./images/fox-book.jpeg";
-import FloorImg from "./images/reading-floor.jpg";
-import LibraryImg from "./images/library-kid.jpeg";
-import BackpackImg from "./images/backpack-book.jpg";
-import WindowImg from "./images/window-book.jpg";
+import FoxImg from './images/fox-book.jpeg';
+import FloorImg from './images/reading-floor.jpg';
+import LibraryImg from './images/library-kid.jpeg';
+import BackpackImg from './images/backpack-book.jpg';
+import WindowImg from './images/window-book.jpg';
 
 function ReadsBody() {
   return (

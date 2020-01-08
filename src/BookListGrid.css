@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+.gridIntro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  line-height: 1.5em;
+  padding: 40px;
+}
+
+.bookGrid {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  padding: 20px 0 40px 0;
+  font-family: 'Noto Serif KR', 'Times New Roman', serif;
+}
+
+.bookLink {
+  text-decoration: none;
+  color: black;
+}
+.bookLink:hover {
+  color: #2347b2;
+}
+
+.bookImg {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.bookTitle {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.bookAuthor {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.bookDesc {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 720px) {
+  .bookGrid {
+      grid-template-columns: repeat(3, 1fr); 
+      grid-column-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .bookGrid {
+      grid-template-columns: repeat(2, 1fr); 
+      grid-column-gap: 20px;
+  }
+}
+
+
+
