@@ -1,88 +1,88 @@
 export default {
   books: [
     {
-      title: "The Giving Tree",
-      author: "Shel Silverstein",
-      image: "/images/3-5/giving-tree.jpg",
-      link: "https://www.amazon.com/Giving-Tree-Shel-Silverstein/dp/0060256656",
-      description: "This story of selfless generosity warms every heart."
+      title: "Calvin and Hobbes",
+      author: "Bill Watterson",
+      image: "/book-images/6-8/calvin.jpeg",
+      link: "https://www.amazon.com/Calvin-Hobbes-Bill-Watterson/dp/0836220889",
+      description: "The antics of these two will keep kids laughing AND reading."
     },
     {
-      title: "The Dark",
-      author: "Lemony Snicket",
-      image: "/images/3-5/dark.jpg",
-      link: "https://www.amazon.com/Dark-Bccb-Ribbon-Picture-Awards/dp/0316187488",
-      description: "A fun adventure into the dark that helps little Laszlo overcome his fear."
-    },
-    {
-      title: "Frog and Toad Are Friends",
-      author: "Arnold Lobel",
-      image: "/images/3-5/frog-toad.jpg",
-      link: "https://www.amazon.com/Frog-Toad-Friends-Read-Book/dp/0060239573",
-      description: "Short tales featuring these friends who learn and grow together."
-    },
-    {
-      title: "King Bidgood's in the Bathtub",
-      author: "Don and Audrey Wood",
-      image: "/images/3-5/bidgood.jpg",
-      link: "https://www.amazon.com/King-Bidgoods-Bathtub-Audrey-Wood/dp/0152427309",
-      description: "Beautifully detailed illustrations help make this catchy story a favorite."
-    },
-    {
-      title: "The Gruffalo",
-      author: "Julia Donaldson",
-      image: "/images/3-5/gruffalo.jpg",
-      link: "https://www.amazon.com/Gruffalo-Picture-Books-Julia-Donaldson/dp/0803731094",
-      description: "The story of a clever mouse, told in an unforgettable rhythm."
-    },
-    {
-      title: "Knuffle Bunny",
+      title: "Elephant and Piggie Books",
       author: "Mo Willems",
-      image: "/images/3-5/knuffle-bunny.jpg",
-      link: "https://www.amazon.com/Knuffle-Bunny-Cautionary-Mo-Willems/dp/0786818700",
-      description: "Every kid can relate to Trixie, who loses her beloved bunny in NYC."
+      image: "/book-images/6-8/elephant-piggie.jpeg",
+      link: "https://www.amazon.com/Waiting-Easy-Elephant-Piggie-Book/dp/142319957X",
+      description: "Funny and easy to read, these stories are sure to be favorites."
     },
     {
-      title: "The Paper Bag Princess",
-      author: "Robery Munsch",
-      image: "/images/3-5/paper-bag.jpg",
-      link: "https://www.amazon.com/Paper-Bag-Princess-Classic-Munsch/dp/1773210300",
-      description: "Heroine Elizabeth outsmarts a dragon to save the prince in this classic."
+      title: "Junie B. Jones Series",
+      author: "Barbara Park",
+      image: "/book-images/6-8/junie.jpeg",
+      link: "https://www.amazon.com/Junie-Jones-Stupid-Smelly-Bus/dp/0679826424",
+      description: "These books about the sassy and hilarious Junie B. are page turners."
     },
     {
-      title: "Where the Wild Things Are",
-      author: "Maurice Sendak",
-      image: "/images/3-5/wild-things.jpg",
-      link: "https://www.amazon.com/Where-Wild-Things-Maurice-Sendak/dp/0060254920",
-      description: "Unique illustrations highlight Max's imaginative adventure."
+      title: "The Magic Treehouse Series",
+      author: "Mary Pope Osborne",
+      image: "/book-images/6-8/magic-treehouse.jpeg",
+      link: "https://www.amazon.com/Dinosaurs-Before-Dark-Magic-House/dp/0679824111",
+      description: "Suspenseful and adventurous tales that take place all over the world."
     },
     {
-      title: "Stellaluna",
-      author: "Janell Cannon",
-      image: "/images/3-5/stellaluna.jpg",
-      link: "https://www.amazon.com/Stellaluna-25th-Anniversary-Janell-Cannon/dp/0544874358",
-      description: "Both informative and sentimental, this story will please every child."
+      title: "Mercy Watson Books",
+      author: "Kate DiCamillo",
+      image: "/book-images/6-8/mercy.jpeg",
+      link: "https://www.amazon.com/Mercy-Watson-Boxed-Set-Adventures/dp/0763657093",
+      description: "Fantastic illustrations accompany these fun stories about a sweet pig."
     },
     {
-      title: "Square",
-      author: "Mac Barnett",
-      image: "/images/3-5/square.jpeg",
-      link: "https://www.amazon.com/Square-Shape-Trilogy-Mac-Barnett/dp/0763696072",
-      description: "One of a trilogy, Square is a must-read for every preschooler."
+      title: "Ramona Books",
+      author: "Beverly Cleary",
+      image: "/book-images/6-8/ramona.jpg",
+      link: "https://www.amazon.com/Ramona-Collection-Vol-Beezus-Father/dp/0061246476",
+      description: "There's no way to choose a favorite - every Ramona tale is well crafted and entertaining."
     },
     {
-      title: "The Snail and the Whale",
-      author: "Julia Donaldson",
-      image: "/images/3-5/snail-whale.jpg",
-      link: "https://www.amazon.com/Snail-Whale-Julia-Donaldson/dp/0803729227",
-      description: "Almost musical in its flow, this story is both exciting and soothing."
+      title: "Matilda",
+      author: "Roald Dahl",
+      image: "/book-images/6-8/matilda.jpg",
+      link: "https://www.amazon.com/Matilda-Roald-Hardcover-illustrated-Quentin/dp/B010710YU2",
+      description: "Whimsical and magical, kids will feel like they are part of the story."
     },
     {
-      title: "Pete and Cat and the Missing Cupcakes",
-      author: "Kimberly and James Dean",
-      image: "/images/3-5/pete.jpg",
-      link: "https://www.amazon.com/Pete-Missing-Cupcakes-James-Dean/dp/0062304348",
-      description: "A mystery featuring the well-known lovable feline."
+      title: "My Father's Dragon",
+      author: "Ruth Stiles Gannett",
+      image: "/book-images/6-8/fathers-dragon.jpeg",
+      link: "https://www.amazon.com/Fathers-Dragon-Ruth-Stiles-Gannett/dp/1940177448",
+      description: "A young boy travels to an island to rescue a dragon in this classic novel."
+    },
+    {
+      title: "Good Night Stories for Rebel Girls",
+      author: "Elena Favilli and Francesca Cavallo",
+      image: "/book-images/6-8/rebel.jpg",
+      link: "https://www.amazon.com/Good-Night-Stories-Rebel-Girls/dp/0997895837",
+      description: "100 stories about the lives of 100 extraordinary women."
+    },
+    {
+      title: "Charlotte's Web",
+      author: "E.B. White",
+      image: "/book-images/6-8/charlotte.jpg",
+      link: "https://www.amazon.com/Charlottes-Web-B-White/dp/0061124958",
+      description: "This touching story has been a favorite for decades."
+    },
+    {
+      title: "Pippi Longstocking",
+      author: "Astrid Lindgren",
+      image: "/book-images/6-8/pippi.jpg",
+      link: "https://www.amazon.com/Pippi-Longstocking-Astrid-Lindgren/dp/0670557455",
+      description: "9-year-old Pippi is the quirky friend every kid wishes they had."
+    },
+    {
+      title: "The Hundred Dresses",
+      author: "Eleanor Estes",
+      image: "/book-images/6-8/hundred-dresses.jpeg",
+      link: "https://www.amazon.com/Hundred-Dresses-Eleanor-Estes/dp/0152051708",
+      description: "A must-read for every child, this book teaches about acceptance and friendship."
     }
   ]
 };
