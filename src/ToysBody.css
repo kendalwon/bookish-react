@@ -8,6 +8,27 @@
   padding: 40px;
 }
 
+.indicator {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+  position: relative;
+  top: -60px;
+  
+}
+
+.indicatorButton {
+  width: 30px;
+  height: 5px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+.indicatorButton-active {
+  background-color: gray;
+}
+
 .carousel {
   width: 80%;
   padding-top:  50px;
@@ -36,9 +57,13 @@
   padding: 20px 10px 10px 10px;
 }
 
+.imgContainer {
+  max-height: 400px;
+}
+
 .toyImg {
   width: 70%; 
-  padding: auto;
+  padding-top: 20px;
   margin: 0 15%;
 }
 
@@ -50,14 +75,13 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 115px;
+  height: 120px;
 }
 
 .toyDesc {
   text-align: center;
   font-size: 16px;
   letter-spacing: 2px;
-  padding: 0px 10px;
   margin: auto;
 }
 
@@ -83,7 +107,6 @@
 
   /* Fading animation */  
   .fade {  
-    
     -webkit-animation-name: fade;  
     -webkit-animation-duration: 1.5s;  
     animation-name: fade;  
@@ -99,13 +122,49 @@
   }  
   @keyframes fade {  
     from {  
-        opacity: .4  
+        opacity: .1  
     }  
     to {  
         opacity: 1  
     }  
   }  
   
+  .slide {
+    display: none;
+  }
+
+  .active-slide-0 #slide-0 {
+    display: block;
+  }
+  .active-slide-1 #slide-1 {
+    display: block;
+  }
+  .active-slide-2 #slide-2 {
+    display: block;
+  }
+  .active-slide-3 #slide-3 {
+    display: block;
+  } 
+  .active-slide-4 #slide-4 {
+    display: block;
+  }
+  .active-slide-5 #slide-5 {
+    display: block;
+  }
+  .active-slide-6 #slide-6 {
+    display: block;
+  }
+  .active-slide-7 #slide-7 {
+    display: block;
+  }
+  .active-slide-8 #slide-8 {
+    display: block;
+  } 
+  .active-slide-9 #slide-9 {
+    display: block;
+  }
+
+
 
 @media only screen and (max-width: 580px) {
   .sliderContainer {
