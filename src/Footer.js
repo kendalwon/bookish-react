@@ -16,10 +16,10 @@ function Footer() {
   return (
     <div className="footer">
       <ul className="footerList">
-        <li><a class="link" href="mailto: nobody@kendalwon.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-        <li><a class="link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
-        <li><a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
-        <li><a class="link" href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
+        <li><a className="link" href="mailto: nobody@kendalwon.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+        <li><a className="link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
+        <li><a className="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a></li>
+        <li><a className="link" href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>
       </ul>
       <p className="copyright">{copyright}2019 Kendal Won</p>
     </div>
