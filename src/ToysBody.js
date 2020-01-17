@@ -1,6 +1,6 @@
 import React from 'react';
 import './ToysBody.css';
-import Carousel from './toysCarousel';
+import Carousel from './Carousel';
 
 function ToysBody() {
   return (
