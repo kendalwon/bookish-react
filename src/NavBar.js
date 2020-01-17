@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
+import {Link} from 'react-router-dom';
 
 class NavBar extends Component {
   constructor(props) {
@@ -22,11 +23,11 @@ class NavBar extends Component {
           <h2 className="tagline">raising readers</h2>
         </div>
         <ul className="menuList">
-          <li className="navLink"><a href=".">tips</a></li>
-          <li className="navLink"><a href=".">reads</a></li>
-          <li className="navLink"><a href=".">toys</a></li>
-          <li className="navLink"><a href=".">stores</a></li>
-        </ul>
+            <li className="navLink"><Link to="/tips">Tips</Link></li>
+            <li className="navLink"><Link to="/reads">Reads</Link></li>
+            <li className="navLink"><Link to="/Toys">Toys</Link></li>
+            <li className="navLink"><Link to="/Stores">Stores</Link></li>
+          </ul>
         <div className="dropdown">
           <div 
             onClick={ this.handleClick }
@@ -36,10 +37,11 @@ class NavBar extends Component {
             <div className="bar3"></div>
           </div>
           <div className={ this.state.active ? "dropdown-content show" : "dropdown-content" }>
-            <a href=".">TIPS</a>
-            <a href=".">READS</a>
-            <a href=".">TOYS</a>
-            <a href=".">STORES</a>
+            <Link to="/">HOME</Link>
+            <Link to="/tips">TIPS</Link>
+            <Link to="/reads">READS</Link>
+            <Link to="/toys">TOYS</Link>
+            <Link to="/stores">STORES</Link>
           </div>
         </div>   
       </div>
