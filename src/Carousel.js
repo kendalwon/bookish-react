@@ -2,17 +2,8 @@ import React from 'react';
 import './ToysBody.css';
 import Data from './data/toys-data';
 import IndicatorButton from './IndicatorButton';
+import Arrow from './Arrow';
 import Slide from './Slide';
-
-const Arrow = (props) => {
-  return (
-    <div
-      className={ `slide-arrow ${props.direction}` }
-      onClick={props.clickFunction}>
-      {props.glyph}
-    </div>
-  );
-}
 
 class Carousel extends React.Component {
   constructor (props) {
