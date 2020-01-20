@@ -23,10 +23,18 @@ class NavBar extends Component {
           <h2 className="tagline">raising readers</h2>
         </div>
         <ul className="menuList">
-            <li className="navLink"><Link to="/tips">Tips</Link></li>
-            <li className="navLink"><Link to="/reads">Reads</Link></li>
-            <li className="navLink"><Link to="/Toys">Toys</Link></li>
-            <li className="navLink"><Link to="/Stores">Stores</Link></li>
+            <li className="navLink">
+              <Link to="/tips">Tips</Link>
+            </li>
+            <li className="navLink">
+              <Link to="/reads">Reads</Link>
+            </li>
+            <li className="navLink">
+              <Link to="/Toys">Toys</Link>
+            </li>
+            <li className="navLink">
+              <Link to="/Stores">Stores</Link>
+            </li>
           </ul>
         <div className="dropdown">
           <div 
