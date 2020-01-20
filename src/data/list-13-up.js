@@ -50,7 +50,7 @@ export default {
       description: "These bestsellers are gripping, powerful, and unforgettable."
     },
     {
-      title: "Pery Jackson and the Olympians Series",
+      title: "Percy Jackson and the Olympians Series",
       author: "Rick Riordan",
       image: "/book-images/13-up/lightning.jpeg",
       link: "https://www.amazon.com/Percy-Jackson-Olympians-Hardcover-Boxed/dp/142314189X",
