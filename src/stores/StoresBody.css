@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+.mainStores {
+  height: 670px;
+}
+
+.storesIntro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  line-height: 1.5em;
+  padding: 40px;
+}
+
+#mapContainer {
+  width: 800px;
+  height: 530px;
+  margin: 0 auto;
+}
+
+#map {
+  width: 100%;
+  height: 100%; 
+   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 860px) {
+  #mapContainer {
+      width: 500px;
+      height: 500px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .mainStores {
+    height: 600px;
+  }
+  #mapContainer {
+      width: 400px;
+      height: 400px;
+  }
+}

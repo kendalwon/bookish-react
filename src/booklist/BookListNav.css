@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Montserrat:400,600|Noto+Serif+KR:400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bookLists {
+  justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.bookLists, .bookListMenu {
+  display: flex;
+  list-style: none;
+}
+
+.bookListTitle, .bookListItem {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.bookListTitle {
+  font-weight: 600;
+}
+
+.bookListItem {
+  border-left: 2px solid lightgray;
+}
+
+.bookListLink {
+  text-decoration: none;
+  color: black;
+}
+.bookListLink:hover {
+  color: #2347b2;
+}
+
+@media only screen and (max-width: 740px) {
+  .bookListItem {
+    font-size: 12px;
+  }
+}

@@ -3,36 +3,35 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import Home from './Home';
-import Tips from './Tips';
-import Reads from './Reads';
-import Toys from './Toys';
-import Stores from './Stores';
-import BookListInfant2 from './BookListInfant2';
-import BookList35 from './BookList35';
-import BookList68 from './BookList68';
-import BookList912 from './BookList912';
-import BookList13up from './BookList13up';
+import Home from './home/Home';
+import Tips from './tips/Tips';
+import Reads from './reads/Reads';
+import Toys from './toys/Toys';
+import Stores from './stores/Stores';
+import BookListInfant2 from './booklist/BookListInfant2';
+import BookList35 from './booklist/BookList35';
+import BookList68 from './booklist/BookList68';
+import BookList912 from './booklist/BookList912';
+import BookList13up from './booklist/BookList13up';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Switch>
-          <div>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/tips" component={Tips}/>
-            <Route exact path="/reads" component={Reads}/>
-            <Route exact path="/toys" component={Toys}/>
-            <Route exact path="/stores" component={Stores}/>
-            <Route exact path="/booklistinfant2" component={BookListInfant2}/>
-            <Route exact path="/booklist35" component={BookList35}/>
-            <Route exact path="/booklist68" component={BookList68}/>
-            <Route exact path="/booklist912" component={BookList912}/>
-            <Route exact path="/booklist13up" component={BookList13up}/>
-          </div>
-        </Switch>
-      </div>
+      <Switch>
+        <>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/home" component={Home}/>
+          <Route exact path="/tips" component={Tips}/>
+          <Route exact path="/reads" component={Reads}/>
+          <Route exact path="/toys" component={Toys}/>
+          <Route exact path="/stores" component={Stores}/>
+          <Route exact path="/booklistinfant2" component={BookListInfant2}/>
+          <Route exact path="/booklist35" component={BookList35}/>
+          <Route exact path="/booklist68" component={BookList68}/>
+          <Route exact path="/booklist912" component={BookList912}/>
+          <Route exact path="/booklist13up" component={BookList13up}/>
+        </>
+      </Switch>
     );
   }
 }
