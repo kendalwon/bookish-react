@@ -6,9 +6,11 @@ import EmailSignup from '../email/EmailSignup';
 import Footer from '../footer/Footer';
 
 class BookList912 extends React.Component {
+
   componentDidMount() {
     window.scrollTo(0, 0)
   }
+
   render() {
     return (
       <div>

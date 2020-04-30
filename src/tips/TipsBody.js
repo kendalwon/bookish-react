@@ -3,7 +3,7 @@ import './TipsBody.css';
 import CouchImg from "../images/couch-reader.jpeg";
 import {Link} from 'react-router-dom';
 
-function TipsBody() {
+const TipsBody = () => {
   return (
     <div>
       <section className="main">

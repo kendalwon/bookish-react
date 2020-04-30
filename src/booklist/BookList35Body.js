@@ -2,7 +2,7 @@ import React from 'react';
 import './BookListGrid.css';
 import Data from './data/list-3-5';
 
-function BookList35Body() {
+const BookList35Body = () => {
   return (
       <div>
         <div className="gridIntro">

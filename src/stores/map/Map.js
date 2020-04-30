@@ -21,7 +21,7 @@ class Map extends React.Component {
     }
   }
 
-  getLocation() {
+  getLocation = () => {
     if (navigator && navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(pos => {
         let position = {
@@ -33,7 +33,7 @@ class Map extends React.Component {
     }
   }
 
-  loadMap() {
+  loadMap = () => {
     if (this.props && this.props.google) {
       const {google} = this.props;
       const maps = google.maps;
@@ -52,7 +52,7 @@ class Map extends React.Component {
     }
   }
 
-  recenterMap() {
+  recenterMap = () => {
     const map = this.map;
     const current = this.props.currentLocation;
     const google = this.props.google;
@@ -63,7 +63,7 @@ class Map extends React.Component {
     }
   }
 
-  fetchBookstores() {
+  fetchBookstores = () => {
     const map = this.mapRef;
     if (map) {
       const {google} = this.props;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './EmailSignup.css';
 
-function EmailSignup() {
+const EmailSignup = () => {
   let arrow = "\u2192";
   return (
     <div className="emailSignup">

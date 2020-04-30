@@ -12,13 +12,9 @@ class Carousel extends React.Component {
       toys: Data.toys,
       toy: Data.toys[0]
     };
-
-    this.nextSlide = this.nextSlide.bind(this);
-    this.previousSlide = this.previousSlide.bind(this);
-    this.goToSlide = this.goToSlide.bind(this);
   }
 
-  previousSlide() {
+  previousSlide = () => {
     const lastIndex = Data.toys.length - 1;
     const currentSlideIndex = this.state.toy.index;
     const shouldResetIndex = currentSlideIndex === 0;
@@ -29,7 +25,7 @@ class Carousel extends React.Component {
     });
   }
 
-  nextSlide() {
+  nextSlide = () => {
     const lastIndex = Data.toys.length - 1;
     const currentSlideIndex = this.state.toy.index;
     const shouldResetIndex = currentSlideIndex === lastIndex;
@@ -40,7 +36,7 @@ class Carousel extends React.Component {
     });
   }
 
-  goToSlide(e) {
+  goToSlide = (e) => {
     const newIndex = e;
     this.setState({
       toy: Data.toys[newIndex]

@@ -3,7 +3,7 @@ export default {
     {
       index: 0,
       name: "My First Bananagrams",
-      image: "/toy-images/bananagrams.jpg",
+      image: "./toy-images/bananagrams.jpg",
       link: "https://www.amazon.com/Bananagrams-First-Multi-Award-Winning-Spelling/dp/B01G52QSU2",
       desc: "Perfect for the early learner, this game helps children grow a love for wordplay, and aligns with reading curriculums."
     },
