@@ -8,10 +8,9 @@ class NavBar extends Component {
     this.state = {
       active: false
     };
-    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+  handleClick = () => {
     this.setState({ active: !this.state.active });
   }
 
@@ -30,10 +29,10 @@ class NavBar extends Component {
               <Link to="/reads">Reads</Link>
             </li>
             <li className="navLink">
-              <Link to="/Toys">Toys</Link>
+              <Link to="/toys">Toys</Link>
             </li>
             <li className="navLink">
-              <Link to="/Stores">Stores</Link>
+              <Link to="/stores">Stores</Link>
             </li>
           </ul>
         <div className="dropdown">

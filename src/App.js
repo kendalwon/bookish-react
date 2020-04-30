@@ -14,26 +14,24 @@ import BookList68 from './booklist/BookList68';
 import BookList912 from './booklist/BookList912';
 import BookList13up from './booklist/BookList13up';
 
-class App extends React.Component {
-  render() {
-    return (
-      <Switch>
-        <>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/home" component={Home}/>
-          <Route exact path="/tips" component={Tips}/>
-          <Route exact path="/reads" component={Reads}/>
-          <Route exact path="/toys" component={Toys}/>
-          <Route exact path="/stores" component={Stores}/>
-          <Route exact path="/booklistinfant2" component={BookListInfant2}/>
-          <Route exact path="/booklist35" component={BookList35}/>
-          <Route exact path="/booklist68" component={BookList68}/>
-          <Route exact path="/booklist912" component={BookList912}/>
-          <Route exact path="/booklist13up" component={BookList13up}/>
-        </>
-      </Switch>
-    );
-  }
+const App = () => {
+  return (
+    <Switch>        
+      <>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/home" component={Home}/>
+        <Route exact path="/tips" component={Tips}/>
+        <Route exact path="/reads" component={Reads}/>
+        <Route exact path="/toys" component={Toys}/>
+        <Route exact path="/stores" component={Stores}/>
+        <Route exact path="/booklistinfant2" component={BookListInfant2}/>
+        <Route exact path="/booklist35" component={BookList35}/>
+        <Route exact path="/booklist68" component={BookList68}/>
+        <Route exact path="/booklist912" component={BookList912}/>
+        <Route exact path="/booklist13up" component={BookList13up}/>
+      </>
+    </Switch>
+  );
 }
 
 export default App;

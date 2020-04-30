@@ -6,17 +6,18 @@ import Map from './Map';
 import googleApiKey from './apiKey/apiKey';
 
 class Container extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
       currentLocation: {
         lat: 42.2808, 
         lng: -83.7430
-      },
+      }
     }
-}
+  }
 
-  updateLocation(coords) {
+  updateLocation = (coords) => {
     this.setState({
       currentLocation: coords
     });

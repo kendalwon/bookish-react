@@ -9,9 +9,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faEnvelope, faFacebookSquare, faInstagram, faTwitter)
 
-
-
-function Footer() {
+const Footer = () => {
   const copyright = "\u00A9";
   return (
     <div className="footer">

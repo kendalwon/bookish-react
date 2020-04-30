@@ -7,7 +7,7 @@ import BackpackImg from '../images/backpack-book.jpg';
 import WindowImg from '../images/window-book.jpg';
 import {Link} from 'react-router-dom';
 
-function ReadsBody() {
+const ReadsBody = () => {
   return (
     <div>
       <div className="intro">

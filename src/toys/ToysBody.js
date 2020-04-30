@@ -2,7 +2,7 @@ import React from 'react';
 import './ToysBody.css';
 import Carousel from './Carousel';
 
-function ToysBody() {
+const ToysBody = () => {
   return (
       <div>
         <div className="toysIntro">

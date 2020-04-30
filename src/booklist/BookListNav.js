@@ -2,7 +2,7 @@ import React from 'react';
 import './BookListNav.css';
 import {Link} from 'react-router-dom';
 
-function BookListNav() {
+const BookListNav = () => {
   return (
     <div className="bookLists">
       <h1 className="bookListTitle">Book Lists By Age</h1>

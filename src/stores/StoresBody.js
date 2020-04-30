@@ -3,7 +3,7 @@ import './StoresBody.css';
 //import LoaderBar from "../images/loader.gif";
 import Container from './map/Container';
 
-function StoresBody() {
+const StoresBody = () => {
   return (
     <section className="mainStores">
       <div className="storesIntro">

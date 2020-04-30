@@ -3,7 +3,7 @@ import './HomeBody.css';
 import LibraryImg from "../images/library-baby.jpeg";
 import {Link} from 'react-router-dom';
 
-function HomeBody() {
+const HomeBody = () => {
   return (
     <div>
       <ul className="articleContainer" >
