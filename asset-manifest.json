@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/bookish-react/static/css/main.df01ff58.chunk.css",
+    "main.js": "/bookish-react/static/js/main.52ae5a5a.chunk.js",
+    "main.js.map": "/bookish-react/static/js/main.52ae5a5a.chunk.js.map",
+    "runtime-main.js": "/bookish-react/static/js/runtime-main.401f3bd5.js",
+    "runtime-main.js.map": "/bookish-react/static/js/runtime-main.401f3bd5.js.map",
+    "static/js/2.f93f421a.chunk.js": "/bookish-react/static/js/2.f93f421a.chunk.js",
+    "static/js/2.f93f421a.chunk.js.map": "/bookish-react/static/js/2.f93f421a.chunk.js.map",
+    "index.html": "/bookish-react/index.html",
+    "precache-manifest.df002dfc605d0b9fdb240be24235045f.js": "/bookish-react/precache-manifest.df002dfc605d0b9fdb240be24235045f.js",
+    "service-worker.js": "/bookish-react/service-worker.js",
+    "static/css/main.df01ff58.chunk.css.map": "/bookish-react/static/css/main.df01ff58.chunk.css.map",
+    "static/js/2.f93f421a.chunk.js.LICENSE.txt": "/bookish-react/static/js/2.f93f421a.chunk.js.LICENSE.txt",
+    "static/media/backpack-book.jpg": "/bookish-react/static/media/backpack-book.8c7e8039.jpg",
+    "static/media/couch-reader.jpeg": "/bookish-react/static/media/couch-reader.7c58b869.jpeg",
+    "static/media/fox-book.jpeg": "/bookish-react/static/media/fox-book.252313d7.jpeg",
+    "static/media/library-baby.jpeg": "/bookish-react/static/media/library-baby.1fbc5687.jpeg",
+    "static/media/library-kid.jpeg": "/bookish-react/static/media/library-kid.16ac7b85.jpeg",
+    "static/media/reading-floor.jpg": "/bookish-react/static/media/reading-floor.069ecb56.jpg",
+    "static/media/window-book.jpg": "/bookish-react/static/media/window-book.14d98841.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.401f3bd5.js",
+    "static/js/2.f93f421a.chunk.js",
+    "static/css/main.df01ff58.chunk.css",
+    "static/js/main.52ae5a5a.chunk.js"
+  ]
+}
