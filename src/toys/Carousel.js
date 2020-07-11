@@ -67,7 +67,7 @@ class Carousel extends React.Component {
         <div className={`slidesBox active-slide-${toy.index}`}>
           <div className="slidesWrapper">
             {
-              toys.map(toy => <Slide key={toy.index} index={toy.index} name={toy.name} image={toy.image} link={toy.link} desc={toy.desc} />)
+              toys.map(toy => <Slide key={toy.index} index={toy.index} name={toy.name} image={process.env.PUBLIC_URL + toy.image} link={toy.link} desc={toy.desc} />)
             }
           </div>
         </div>

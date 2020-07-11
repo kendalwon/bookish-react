@@ -1,10 +1,12 @@
+// import { DearZoo } from '../images/book-images/infant-2/dear-zoo.jpg';
+
 export default {
   books: [
     {
       index: 0,
       title: "Dear Zoo",
       author: "Rod Campbell",
-      image: "book-images/infant-2/dear-zoo.jpg",
+      image: "/book-images/infant-2/dear-zoo.jpg",
       link: "https://www.amazon.com/Dear-Zoo-Friends/dp/0027164403",
       description: "A simple lift-the-flap story with a surprise on every page."
     },
