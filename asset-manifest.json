@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bookish-react/static/css/main.df01ff58.chunk.css",
-    "main.js": "/bookish-react/static/js/main.e7db665e.chunk.js",
-    "main.js.map": "/bookish-react/static/js/main.e7db665e.chunk.js.map",
+    "main.js": "/bookish-react/static/js/main.d9f7235c.chunk.js",
+    "main.js.map": "/bookish-react/static/js/main.d9f7235c.chunk.js.map",
     "runtime-main.js": "/bookish-react/static/js/runtime-main.401f3bd5.js",
     "runtime-main.js.map": "/bookish-react/static/js/runtime-main.401f3bd5.js.map",
     "static/js/2.b8e39ca5.chunk.js": "/bookish-react/static/js/2.b8e39ca5.chunk.js",
     "static/js/2.b8e39ca5.chunk.js.map": "/bookish-react/static/js/2.b8e39ca5.chunk.js.map",
     "index.html": "/bookish-react/index.html",
-    "precache-manifest.07ed14afa1604c16d0251b0412ec21b0.js": "/bookish-react/precache-manifest.07ed14afa1604c16d0251b0412ec21b0.js",
+    "precache-manifest.d53835ecafff7deb33dd4ee1ae838557.js": "/bookish-react/precache-manifest.d53835ecafff7deb33dd4ee1ae838557.js",
     "service-worker.js": "/bookish-react/service-worker.js",
     "static/css/main.df01ff58.chunk.css.map": "/bookish-react/static/css/main.df01ff58.chunk.css.map",
     "static/js/2.b8e39ca5.chunk.js.LICENSE.txt": "/bookish-react/static/js/2.b8e39ca5.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.401f3bd5.js",
     "static/js/2.b8e39ca5.chunk.js",
     "static/css/main.df01ff58.chunk.css",
-    "static/js/main.e7db665e.chunk.js"
+    "static/js/main.d9f7235c.chunk.js"
   ]
 }
