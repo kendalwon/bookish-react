@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dadf0ee2fdf6d2842052e58a331078d4",
+    "revision": "13299c4aa3176b27a3051124a5df0265",
     "url": "/bookish-react/index.html"
   },
   {
