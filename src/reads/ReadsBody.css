@@ -106,3 +106,23 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .intro {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  .ageImg {
+    width: 150px;
+    border: 1px solid lightgray;
+    margin: 5px 15px 5px 15px; 
+  }
+  .categoryHeading {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .categoryContent {
+    font-size: 12px;
+  }
+}
+
