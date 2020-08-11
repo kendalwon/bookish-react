@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13299c4aa3176b27a3051124a5df0265",
+    "revision": "e55c2ab94898b91f12e910b8b4b3b683",
     "url": "/bookish-react/index.html"
   },
   {
-    "revision": "567bb22be107cddf6f10",
-    "url": "/bookish-react/static/css/main.df01ff58.chunk.css"
+    "revision": "85691aa963ddb89324c8",
+    "url": "/bookish-react/static/css/main.3835ea96.chunk.css"
   },
   {
     "revision": "c03c6c670a8039d371e7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bookish-react/static/js/2.b8e39ca5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "567bb22be107cddf6f10",
+    "revision": "85691aa963ddb89324c8",
     "url": "/bookish-react/static/js/main.d9f7235c.chunk.js"
   },
   {
