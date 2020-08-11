@@ -52,3 +52,20 @@
   font-size: 20px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 400px) {
+  .emailIntro {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+  .emailTagline {
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 0px 10px 10px 10px;
+  }
+  .emailInput {
+    max-width: 80%;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
