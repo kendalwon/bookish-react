@@ -166,14 +166,47 @@
 
 
 @media only screen and (max-width: 580px) {
-  .sliderContainer {
-    padding-bottom: 140px;
-  }
   .toyName { 
     font-size: 24px;
     letter-spacing: 2px;
   }
-  .toyDesc {
+  /* .toyDesc {
     height: 145px;
+  } */
+}
+
+@media only screen and (max-width: 400px) {
+  .toysIntro {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .carousel {
+    width: 90%;
+    padding-bottom: 70px;
+  } 
+  .indicatorButton {
+    width: 20px;
+  }
+  .toyName { 
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .imgContainer {
+    max-height: 300px;
+  }
+  .toyImg {
+    width: 80%; 
+    padding-top: 10px;
+    margin: 0 10%;
+  }
+  .descContainer {
+    height: 80px;
+  }
+  .toyDesc {
+    font-size: 12px;
+    letter-spacing: 0;
+    padding: 0 10px;
   }
 }
